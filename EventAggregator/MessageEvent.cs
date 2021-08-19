@@ -15,7 +15,7 @@ namespace EventAggregator
 
         private static MessageEvent _masterMessage;
         public static MessageEvent MakeInstance()
-        {
+        {//dua
             _masterMessage = new MessageEvent();
             return _masterMessage;
         }
