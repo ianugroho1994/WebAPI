@@ -8,8 +8,7 @@ namespace EventAggregator
         private readonly IMessageHub _messageHub;
 
         public MessageEvent()
-        {
-            //adding comment
+        {//satu
             _messageHub = new MessageHub();
             _messageHub.RegisterGlobalHandler((type, eventObject) => Console.WriteLine($"Type: {type} - Event: {eventObject}"));
         }
